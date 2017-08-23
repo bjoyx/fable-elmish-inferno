@@ -3,7 +3,8 @@ source https://nuget.org/api/v2
 nuget FAKE
 nuget FSharp.Core  redirects:force, content:none
 nuget Fable.Core
-nuget Fable.Inferno
+// nuget Fable.Inferno
+git https://github.com/bjoyx/fable-inferno.git
 nuget Fable.Elmish
 
 group Build
